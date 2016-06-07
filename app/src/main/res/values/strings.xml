@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Proyecto</string>
+    <string name="usuario">Usuario</string>
+    <string name="password">Password</string>
+    <string name="entrar">Entrar</string>
+    <string name="olvidaste_la_contrase_a">¿Olvidaste la contraseña?</string>
+    <string name="recuperar_contrae_a">Recuperar contraseña</string>
+    <string name="enviar">Enviar</string>
+    <string name="introduzca_el_correo">Introduzca el Correo</string>
 </resources>

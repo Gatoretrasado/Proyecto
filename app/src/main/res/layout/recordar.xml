@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/recuperar_contrae_a"
+        android:id="@+id/lbl_recuperar"
+        android:layout_marginTop="71dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/introduzca_el_correo"
+        android:id="@+id/lbl_correo"
+        android:layout_marginTop="55dp"
+        android:layout_below="@+id/lbl_recuperar"
+        android:layout_alignStart="@+id/lbl_recuperar" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/txt_correo"
+        android:layout_below="@+id/lbl_correo"
+        android:layout_alignStart="@+id/lbl_correo" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enviar"
+        android:id="@+id/btn_enviar"
+        android:layout_below="@+id/txt_correo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp" />
+</RelativeLayout>
