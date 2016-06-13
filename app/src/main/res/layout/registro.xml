@@ -28,7 +28,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/password"
+        android:text="@string/contrase_a"
         android:id="@+id/lbl_pass"
         android:layout_above="@+id/txt_pass"
         android:layout_alignStart="@+id/txt_pass" />
@@ -37,8 +37,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/usuario"
-        android:id="@+id/lbl_user"
+        android:text="@string/correo"
+        android:id="@+id/lbl_correo"
         android:layout_marginTop="37dp"
         android:layout_alignParentTop="true"
         android:layout_alignStart="@+id/txt_correo" />
@@ -46,25 +46,29 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/entrar"
+        android:text="@string/registrarse"
         android:id="@+id/btn_registrarse"
-        android:layout_below="@+id/txt_pass"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp" />
+        android:layout_marginBottom="39dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="@string/olvidaste_la_contrase_a"
-        android:id="@+id/lbl_olvpass"
-        android:layout_below="@+id/btn_registrarse"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="22dp"
-        android:clickable="true"
-        android:contextClickable="true"
-        android:enabled="true"
-        android:focusable="true"
-        android:focusableInTouchMode="true" />
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/confirma_contrase_a"
+        android:id="@+id/lbl_conpass"
+        android:layout_below="@+id/txt_pass"
+        android:layout_alignStart="@+id/txt_pass"
+        android:layout_marginTop="37dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/txt_conpass"
+        android:layout_below="@+id/lbl_conpass"
+        android:layout_alignLeft="@+id/txt_pass" />
 
 </RelativeLayout>
