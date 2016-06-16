@@ -17,12 +17,12 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
         android:ems="10"
         android:id="@+id/txt_correo"
         android:layout_marginTop="81dp"
         android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/txt_pass" />
+        android:layout_alignStart="@+id/txt_pass"
+        android:inputType="textEmailAddress" />
 
     <TextView
         android:layout_width="wrap_content"

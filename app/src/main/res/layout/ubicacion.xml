@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/tipo"
+        android:id="@+id/lbl_tipo"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignStart="@+id/lbl_pista" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/pista"
+        android:id="@+id/lbl_pista"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/lbl_tipo"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/monumentocen"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/lbl_tipo"
+        android:contentDescription="@string/monumento_sorpresa" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/lbl_tipo2"
+        android:layout_above="@+id/lbl_pista"
+        android:layout_toEndOf="@+id/lbl_pista" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/bl_pista2"
+        android:layout_alignTop="@+id/lbl_pista"
+        android:layout_alignStart="@+id/lbl_tipo2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/comprobar"
+        android:id="@+id/btn_comp"
+        android:layout_marginBottom="41dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

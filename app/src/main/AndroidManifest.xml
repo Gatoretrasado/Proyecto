@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.josan.proyecto">
 
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/icono"
@@ -44,14 +48,31 @@
         </activity>
         <activity
             android:name=".Dif_partida"
-            android:label="Acceder"
+            android:label="Dificultad"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.DayNight">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Login" />
         </activity>
-
+        <activity
+            android:name=".Partida"
+            android:label="Partida"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Dif_partida" />
+        </activity>
+        <activity
+            android:name=".ubicacionP"
+            android:label="Ubicación"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.DayNight">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Partida" />
+        </activity>
 
     </application>
 

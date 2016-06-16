@@ -18,4 +18,8 @@
     <string name="correo">Correo</string>
     <string name="registrarse">Registrarse</string>
     <string name="confirma_contrase_a">Confirma Contraseña</string>
+    <string name="tipo">Tipo:</string>
+    <string name="pista">Pista:</string>
+    <string name="monumento_sorpresa">monumento sorpresa</string>
+    <string name="comprobar">Comprobar</string>
 </resources>

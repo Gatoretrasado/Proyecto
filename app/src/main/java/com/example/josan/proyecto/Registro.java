@@ -120,7 +120,6 @@ public class Registro extends AppCompatActivity {
         }else if(pass.length()<6){
             Toast.makeText(Registro.this, "Contraseña demasiado corta (minimo 6 caracteres)", Toast.LENGTH_LONG).show();
             return false;
-
         }else if(!pass.equals(pass2)) {
             Toast.makeText(Registro.this, "Las contraseñas no coinciden", Toast.LENGTH_SHORT).show();
             return false;
